@@ -1,9 +1,7 @@
-import { Header } from "../components/sharedcomponents/header";
+import { Header } from "../components/home/header";
 
 export const Home = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <Header/>
   );
 };

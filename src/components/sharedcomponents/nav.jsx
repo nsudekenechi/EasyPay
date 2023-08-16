@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 export const Nav = ()=>{
     const Nav = ["Individual","Business","Pricing","Set your payroll"]
     return(
-        <nav className="hidden md:flex items-center justify-between text-sm">
+        <nav className="hidden md:flex items-center justify-between text-sm  md:px-10 lg:px-24">
             <NavLink>
                 <img src="./Images/logo.png" className="md:w-16 lg:w-20" alt="" />
             </NavLink>

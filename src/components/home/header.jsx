@@ -3,11 +3,11 @@ import { Nav } from "../sharedcomponents/nav";
 import {IoLogoApple} from "react-icons/io"
 export const Header = () => {
   return (
-    <header className="bg-[url('/Images/bannerBg.png')] bg-cover h-[100vh] py-10 md:px-10 lg:px-24 flex flex-col gap-y-24">
+    <header className="bg-[url('/Images/gradients.png')] bg-cover  py-10 h-[100vh] flex flex-col gap-y-14">
       <Nav />
       {/* BannerText */}
-      <div className="grid grid-cols-7 ">
-        <div className="col-span-3">
+      <div className="grid grid-cols-7  ">
+        <div className="col-span-3 md:pl-10 lg:pl-24">
           <div>
             <h1 className="text-5xl font-bold">
               Run your <span className="text-[#11453B]">payroll</span>{" "}
@@ -51,6 +51,10 @@ export const Header = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="col-span-4 flex h-[60vh] items-center justify-end">
+          <img src="./Images/world.png" className="object-contain h-[100%]" alt="" />
         </div>
       </div>
     </header>
